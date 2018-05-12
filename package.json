@@ -1,6 +1,6 @@
 {
   "name": "global-mutex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Global object and Mutex object implements.",
   "main": "index.js",
   "directories": {
@@ -11,6 +11,10 @@
     "jsdoc": "./node_modules/.bin/jsdoc -p -c ./jsdoc.conf.json -t ./node_modules/ink-docstrap/template -R README.md -r ./lib -d ./document",
     "jasmine": "./node_modules/.bin/jasmine",
     "test": "npm install && npm run cover && npm run jsdoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomonoriitou/global-mutex.git"
   },
   "author": "Tomonori Itou",
   "license": "MIT",
