@@ -1,6 +1,6 @@
 {
   "name": "global-mutex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Global object and Mutex object implements.",
   "main": "index.js",
   "directories": {
@@ -28,5 +28,11 @@
     "jasmine-reporters": "^2.3.0",
     "jsdoc": "^3.5.5",
     "nyc": "^11.4.1"
-  }
+  },
+  "homepage": "http://www.codeworks.co.jp/",
+  "keywords": [
+    "global",
+    "mutex",
+    "singleton"
+  ]
 }
